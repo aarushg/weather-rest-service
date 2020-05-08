@@ -47,7 +47,7 @@ class WeatherPage extends React.Component {
                 description: undefined,
                 sunrise: undefined,
                 sunset: undefined,
-                error: "Please enter the values."
+                error: "Please enter a City and Country."
             });
         }
     }
