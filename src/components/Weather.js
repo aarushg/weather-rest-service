@@ -14,6 +14,16 @@ const Weather = props => (
             </p>
         }
         {
+            props.temp_min && <p className="weather__key"> Temperature Min:
+	 		<span className="weather__value"> {props.temp_min}	</span>
+            </p>
+        }
+        {
+            props.temp_max && <p className="weather__key"> Temperature Max:
+	 		<span className="weather__value"> {props.temp_max}	</span>
+            </p>
+        }
+        {
             props.humidity && <p className="weather__key"> Humidity:
 	 		<span className="weather__value"> {props.humidity} </span>
             </p>
@@ -21,6 +31,11 @@ const Weather = props => (
         {
             props.description && <p className="weather__key"> Conditions:
 	 		<span className="weather__value"> {props.description} </span>
+            </p>
+        }
+        {
+            props.sunrise && <p className="weather__key"> Sunrise:
+	 		<span className="weather__value"> {props.sunrise} </span>
             </p>
         }
         {
