@@ -6,9 +6,8 @@ In the project directory, you can run:
 
 Before you can run the React Project, Please install NodeJS and NPM on your computer.
 
-### 'npm install'
 
-Use this CMD to install the packages used in this project. 
+Use this CMD to install the packages used in this project.
 
 ### `npm start`
 
