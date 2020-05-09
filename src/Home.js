@@ -17,6 +17,6 @@ const GridWrapper = styled.div`
 `;
 export const Home = (props) => (
   <GridWrapper>
-    <WeatherApp />
+    <Center><WeatherApp /></Center>
   </GridWrapper>
 )
